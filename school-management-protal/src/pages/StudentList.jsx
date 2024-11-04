@@ -10,7 +10,7 @@ const StudentList = () => {
     useEffect(() => {
          const fetchData = async () => {
             try {
-                const response = await fetch("/src/data/student.json");
+                const response = await fetch("/student.json");
                 const jsonData = await response.json();
                 setStudents(jsonData);
             } catch (error) {

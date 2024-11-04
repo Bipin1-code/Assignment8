@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
+import './SearchBar.css';
 
 const SearchBar = ({ onSearch }) => {
     const [query, setQuery] = useState('');
@@ -14,7 +15,7 @@ const SearchBar = ({ onSearch }) => {
     };
 
     return (
-        <div className="containerSearch my-4">
+        <div className="containerSearch">
             <form onSubmit={handleSearch} className="d-flex justify-content-center">
                 <input
                     type="text"
