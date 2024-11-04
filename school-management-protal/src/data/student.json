@@ -1,0 +1,555 @@
+[
+    {
+        "image": "src/picAssest/JohnProfilePic.jpg",
+        "name": "John Doe",
+        "age": 20,
+        "email": "john.doe@example.com",
+        "class": "Computer Science",
+        "registrationId": "CS2023001",
+        "rollNumber": "CS-101",
+        "address": "123 Elm Street, Springfield, IL, 62704",
+        "parent": {
+            "father": "Mick Doe",
+            "father_contact": "123-456-7890",
+            "mother": "Rose Doe",
+            "mother_contact": "123-555-7890"
+        },
+        "subjects": [
+            {
+                "name": "Mathematics",
+                "performance": {
+                    "semesters": [
+                        {
+                            "semester": "Semester 1",
+                            "grade": "A",
+                            "score": 90
+                        },
+                        {
+                            "semester": "Semester 2",
+                            "grade": "B+",
+                            "score": 85
+                        },
+                        {
+                            "semester": "Semester 3",
+                            "grade": "A-",
+                            "score": 88
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Physics",
+                "performance": {
+                    "semesters": [
+                        {
+                            "semester": "Semester 1",
+                            "grade": "B",
+                            "score": 82
+                        },
+                        {
+                            "semester": "Semester 2",
+                            "grade": "A-",
+                            "score": 88
+                        },
+                        {
+                            "semester": "Semester 3",
+                            "grade": "B+",
+                            "score": 85
+                        }
+                    ]
+                }
+            }
+        ],
+        "extracurricular": {
+            "sports": {
+                "activity": "Basketball",
+                "position": "Forward",
+                "achievements": [
+                    "MVP in inter-school championship",
+                    "Best Forward Award - 2023"
+                ]
+            },
+            "arts": {
+                "activity": "Drama Club",
+                "roles": [
+                    "Lead role in school play",
+                    "Stage manager for cultural fest"
+                ]
+            },
+            "volunteer": {
+                "activities": [
+                    {
+                        "event": "Community Clean-Up",
+                        "hours": 10
+                    },
+                    {
+                        "event": "Food Drive",
+                        "hours": 15
+                    }
+                ]
+            }
+        },
+        "attendance": {
+            "total_classes": 200,
+            "attended": 180,
+            "attendance_percentage": 90
+        }
+    },
+    {
+        "image": "src/picAssest/Alice.jpeg",
+        "name": "Alice Johnson",
+        "age": 19,
+        "email": "alice.johnson@example.com",
+        "class": "Biology",
+        "registrationId": "BIO2023002",
+        "rollNumber": "BIO-201",
+        "address": "456 Maple Avenue, Springfield, IL, 62705",
+        "parent": {
+            "father": "David Johnson",
+            "father_contact": "123-111-7890",
+            "mother": "Emma Johnson",
+            "mother_contact": "123-222-7890"
+        },
+        "subjects": [
+            {
+                "name": "Biology",
+                "performance": {
+                    "semesters": [
+                        {
+                            "semester": "Semester 1",
+                            "grade": "A",
+                            "score": 91
+                        },
+                        {
+                            "semester": "Semester 2",
+                            "grade": "A-",
+                            "score": 87
+                        },
+                        {
+                            "semester": "Semester 3",
+                            "grade": "A",
+                            "score": 90
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Chemistry",
+                "performance": {
+                    "semesters": [
+                        {
+                            "semester": "Semester 1",
+                            "grade": "B+",
+                            "score": 85
+                        },
+                        {
+                            "semester": "Semester 2",
+                            "grade": "A-",
+                            "score": 89
+                        },
+                        {
+                            "semester": "Semester 3",
+                            "grade": "A",
+                            "score": 92
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Physics",
+                "performance": {
+                    "semesters": [
+                        {
+                            "semester": "Semester 1",
+                            "grade": "B",
+                            "score": 80
+                        },
+                        {
+                             "semester": "Semester 2",
+                            "grade": "B+",
+                            "score": 84
+                        },
+                        {
+                            "semester": "Semester 3",
+                            "grade": "A-",
+                            "score": 88
+                        }
+                    ]
+                }
+            }
+        ],
+        "extracurricular": {
+            "sports": {
+                "activity": "Tennis",
+                "position": "Player",
+                "achievements": [
+                    "School Tennis Champion",
+                    "Best Player - 2023"
+                ]
+            },
+            "arts": {
+                "activity": "Photography Club",
+                "roles": [
+                    "Head of photography committee"
+                ]
+            },
+            "volunteer": {
+                "activities": [
+                    {
+                        "event": "Library Assistance",
+                        "hours": 20
+                    },
+                    {
+                        "event": "School Fundraiser",
+                        "hours": 25
+                    }
+                ]
+            }
+        },
+        "attendance": {
+            "total_classes": 200,
+            "attended": 190,
+            "attendance_percentage": 95
+        }
+    },
+    {
+        "image": "src/picAssest/Bob.webp",
+        "name": "Bob Brown",
+        "age": 21,
+        "email": "bob.brown@example.com",
+        "class": "Mathematics",
+        "registrationId": "MATH2023003",
+        "rollNumber": "MATH-301",
+        "address": "789 Oak Street, Springfield, IL, 62706",
+        "parent": {
+            "father": "Michael Brown",
+            "father_contact": "123-333-7890",
+            "mother": "Sarah Brown",
+            "mother_contact": "123-444-7890"
+        },
+        "subjects": [
+            {
+                "name": "Calculus",
+                "performance": {
+                    "semesters": [
+                        {
+                            "semester": "Semester 1",
+                            "grade": "A",
+                            "score": 92
+                        },
+                        {
+                            "semester": "Semester 2",
+                            "grade": "B+",
+                            "score": 88
+                        },
+                        {
+                            "semester": "Semester 3",
+                            "grade": "A-",
+                            "score": 90
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Algebra",
+                "performance": {
+                    "semesters": [
+                        {
+                            "semester": "Semester 1",
+                            "grade": "A-",
+                            "score": 89
+                        },
+                        {
+                            "semester": "Semester 2",
+                            "grade": "A",
+                            "score": 91
+                        },
+                        {
+                            "semester": "Semester 3",
+                            "grade": "B+",
+                            "score": 87
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Statistics",
+                "performance": {
+                    "semesters": [
+                        {
+                            "semester": "Semester 1",
+                            "grade": "B+",
+                            "score": 84
+                        },
+                        {
+                            "semester": "Semester 2",
+                            "grade": "A-",
+                            "score": 88
+                        },
+                        {
+                            "semester": "Semester 3",
+                            "grade": "A",
+                            "score": 92
+                        }
+                    ]
+                }
+            }
+        ],
+        "extracurricular": {
+            "sports": {
+                "activity": "Soccer",
+                "position": "Goalkeeper",
+                "achievements": [
+                    "Most Valuable Goalkeeper - 2023",
+                    "Team Captain"
+                ]
+            },
+            "arts": {
+                "activity": "Music Club",
+                "roles": [
+                    "Lead guitarist"
+                ]
+            },
+            "volunteer": {
+                "activities": [
+                    {
+                        "event": "Beach Clean-Up",
+                        "hours": 15
+                    },
+                    {
+                        "event": "Food Bank Volunteering",
+                        "hours": 18
+                    }
+                ]
+            }
+        },
+        "attendance": {
+            "total_classes": 200,
+            "attended": 185,
+            "attendance_percentage": 92.5
+        }
+    },
+    {
+        "image": "src/picAssest/Charlie.jpg",
+        "name": "Charlie Smith",
+        "age": 22,
+        "email": "charlie.smith@example.com",
+        "class": "Physics",
+        "registrationId": "PHY2023004",
+        "rollNumber": "PHY-401",
+        "address": "124 Pine Avenue, Springfield, IL, 62707",
+        "parent": {
+            "father": "Paul Smith",
+            "father_contact": "321-555-1234",
+            "mother": "Linda Smith",
+            "mother_contact": "321-555-5678"
+        },
+        "subjects": [
+            {
+                "name": "Physics",
+                "performance": {
+                    "semesters": [
+                        {
+                            "semester": "Semester 1",
+                            "grade": "A",
+                            "score": 93
+                        },
+                        {
+                            "semester": "Semester 2",
+                            "grade": "B+",
+                            "score": 86
+                        },
+                        {
+                            "semester": "Semester 3",
+                            "grade": "A-",
+                            "score": 88
+                        }
+                    ]
+                }
+            }
+        ],
+        "extracurricular": {
+            "sports": {
+                "activity": "Chess Club",
+                "position": "Member",
+                "achievements": [
+                    "Chess Tournament Winner - 2023"
+                ]
+            }
+        },
+        "attendance": {
+            "total_classes": 200,
+            "attended": 190,
+            "attendance_percentage": 95
+        }
+    },
+    {
+        "image": "src/picAssest/Diana.webp",
+        "name": "Diana Evans",
+        "age": 20,
+        "email": "diana.evans@example.com",
+        "class": "Literature",
+        "registrationId": "LIT2023005",
+        "rollNumber": "LIT-501",
+        "address": "560 Willow Lane, Springfield, IL, 62708",
+        "parent": {
+            "father": "John Evans",
+            "father_contact": "123-654-7890",
+            "mother": "Martha Evans",
+            "mother_contact": "123-555-3456"
+        },
+        "subjects": [
+            {
+                "name": "English",
+                "performance": {
+                    "semesters": [
+                        {
+                            "semester": "Semester 1",
+                            "grade": "A-",
+                            "score": 88
+                        },
+                        {
+                            "semester": "Semester 2",
+                            "grade": "A",
+                            "score": 92
+                        },
+                        {
+                            "semester": "Semester 3",
+                            "grade": "A",
+                            "score": 95
+                        }
+                    ]
+                }
+            }
+        ],
+        "extracurricular": {
+            "arts": {
+                "activity": "Drama Club",
+                "roles": [
+                    "Supporting role in school play"
+                ]
+            },
+            "volunteer": {
+                "activities": [
+                    {
+                        "event": "School Library Organizer",
+                        "hours": 15
+                    }
+                ]
+            }
+        },
+        "attendance": {
+            "total_classes": 200,
+            "attended": 185,
+            "attendance_percentage": 92.5
+        }
+    },
+    {
+        "image": "src/picAssest/Emma.jpg",
+        "name": "Emma Taylor",
+        "age": 19,
+        "email": "emma.taylor@example.com",
+        "class": "Engineering",
+        "registrationId": "ENG2023006",
+        "rollNumber": "ENG-601",
+        "address": "872 Cedar Avenue, Springfield, IL, 62709",
+        "parent": {
+            "father": "George Taylor",
+            "father_contact": "987-555-1234",
+            "mother": "Alice Taylor",
+            "mother_contact": "987-555-6789"
+        },
+        "subjects": [
+            {
+                "name": "Engineering Mechanics",
+                "performance": {
+                    "semesters": [
+                        {
+                            "semester": "Semester 1",
+                            "grade": "A",
+                            "score": 91
+                        },
+                        {
+                            "semester": "Semester 2",
+                            "grade": "A-",
+                            "score": 87
+                        },
+                        {
+                            "semester": "Semester 3",
+                            "grade": "A",
+                            "score": 92
+                        }
+                    ]
+                }
+            }
+        ],
+        "extracurricular": {
+            "sports": {
+                "activity": "Swimming",
+                "position": "Team Member",
+                "achievements": [
+                    "District Level Medalist"
+                ]
+            }
+        },
+        "attendance": {
+            "total_classes": 200,
+            "attended": 190,
+            "attendance_percentage": 95
+        }
+    },
+    {
+        "image": "src/picAssest/Liam.jpg",
+        "name": "Liam Wilson",
+        "age": 22,
+        "email": "liam.wilson@example.com",
+        "class": "History",
+        "registrationId": "HIS2023007",
+        "rollNumber": "HIS-701",
+        "address": "910 Birch Road, Springfield, IL, 62710",
+        "parent": {
+            "father": "Frank Wilson",
+            "father_contact": "321-777-4567",
+            "mother": "Nina Wilson",
+            "mother_contact": "321-888-5678"
+        },
+        "subjects": [
+            {
+                "name": "World History",
+                "performance": {
+                    "semesters": [
+                        {
+                            "semester": "Semester 1",
+                            "grade": "B+",
+                            "score": 85
+                        },
+                        {
+                            "semester": "Semester 2",
+                            "grade": "A-",
+                            "score": 89
+                        },
+                        {
+                            "semester": "Semester 3",
+                            "grade": "A",
+                            "score": 93
+                        }
+                    ]
+                }
+            }
+        ],
+        "extracurricular": {
+            "sports": {
+                "activity": "Track and Field",
+                "position": "Runner",
+                "achievements": [
+                    "State Level Medalist"
+                ]
+            }
+        },
+        "attendance": {
+            "total_classes": 200,
+            "attended": 188,
+            "attendance_percentage": 94
+        }
+    }
+]

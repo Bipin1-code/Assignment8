@@ -1,0 +1,17 @@
+
+.curriculam{
+    margin-left: 20px;
+}
+
+h4{ margin-top: 20px;
+    text-align: center;
+}
+
+.sportsInfo h5,
+.achievements h5,
+.arts h5, 
+.volunteer h5
+{
+    color: wheat;
+}
+
